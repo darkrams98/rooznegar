@@ -1,8 +1,17 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "ir.rooznegar98.rooznegar",
-    "sha256_cert_fingerprints": ["AF:F5:81:1B:71:B2:E3:5C:D8:97:EC:24:2A:8C:67:2B:17:DF:C8:22:F5:D4:6B:9E:52:B4:88:CC:CB:EA:A8:D9"]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ir.rooznegar98.rooznegar",
+      "sha256_cert_fingerprints": ["AF:F5:81:1B:71:B2:E3:5C:D8:97:EC:24:2A:8C:67:2B:17:DF:C8:22:F5:D4:6B:9E:52:B4:88:CC:CB:EA:A8:D9"]
+    }
+  },
+  {
+    "relation": ["check_validation"],
+    "target": {
+      "namespace": "cafebazaar_twa",
+      "package_name": "ir.rooznegar98.rooznegar"
+    }
   }
-}]
+]
